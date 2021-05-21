@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    border: 2px solid black;
+    width: 1900px;
+    height: 160px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    display: flex;
+}
+img{
+    width: 150px;
+    height: 150px;
+
+}
+.Prin{
+    font-size: 30px;
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+main{
+    display: flex;
+}
+aside{
+    width: 400px;
+    height: 700px;
+    border: 2px solid black;
+    margin-left: 20px;
+
+}
+.caja{
+    margin-top: 20px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    border: 2px solid rgb(212, 209, 209);
+    padding-left: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.boton{
+    margin-top: 30px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    border: 2px solid rgb(10, 121, 165);
+    padding-left: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(23, 187, 252);
+    color: white;
+    font-size: 20px;
+    float: right;
+
+}
+.container{
+    margin-left: 20px;
+    width: 1500px;
+    height: 700px;
+    border: 2px solid black;
+}
+#table{
+    color: black;
+    border: 2px solid black;
+}
+tr{
+    margin-top: 100px;
+}
+th{
+    width: 700px;
+    height: 20px;
+    border: 1px solid rgb(23, 187, 252);
+    background-color: rgb(8, 141, 218);
+    padding: 10px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;    
+}
+.icono1{
+    font-size: 15px;
+    color: red;
+    padding-left: 15px;
+}
+.icono2{
+    font-size: 15px;
+    color: green;
+}
+.accion{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;  
+}

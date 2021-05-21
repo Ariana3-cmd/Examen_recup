@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <img src="https://thumbs.dreamstime.com/z/l%C3%ADnea-icono-logo-design-element-del-c%C3%ADrculo-de-la-letra-v-95971595.jpg" alt="">
+        <div class="Prin"> SISTEMA DE VENTAS   
+        </div>
+    
+    </header>
+    <main>
+        <aside>
+        <div class="fecha" style="font-size: 20px;">
+            Fecha:
+           <input type="text" placeholder="Fecha" class="caja" id="fecha">
+        </div>
+           <div class="cliente" style="font-size: 20px;"> Cliente :
+                <select name="combo" id="cliente" class="caja">
+                    <option value="0">Cliente</option>
+                    <option value="FACTURA">MARCO</option>
+                    <option value="BOLETA">LORENA</option>
+                </select>
+            </div>
+                <div class="producto"> Producto:
+                <select name="producto" id="producto" class="caja">
+                    <option value="0">Seleccionar Producto</option>
+                    <option value="ACEITE">ACEITE</option>
+                    <option value="LECHE">LECHE</option>
+                </select>
+            </div>
+            
+            <div class="Precio"> Precio:
+                <input type="text" placeholder="precio" class="caja" id="precio">
+            </div>
+                <div class="cantidad"> Cantidad:
+                <input type="text" placeholder="cantidad" class="caja" id="cantidad">
+            </div>           
+        <button class="boton" onclick="agregar()">Agregar</button>
+    </aside>
+    <div class="container">
+        <div class="datos">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>FECHA</th>
+                        <th>CLIENTE</th>
+                        <th>PRODUCTO</th>
+                        <th>PRECIO</th>
+                        <th>CANTIDAD</th>
+                        <th>SUBTOTAL</th>
+                        <th>ACCION</th>
+                    </tr>
+                </thead >
+                <tbody id="tbd"> 
+                </tbody>
+            </table>
+        </div>
+    </div>
+</main>
+    <script src="js/script.js"></script>
+</body>
+</html>
